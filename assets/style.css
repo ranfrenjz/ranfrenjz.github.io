@@ -1,0 +1,38 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #FFFFC2;
+  color: black;
+  font-family: arial;
+  
+   <center>
+        <style>
+		td {
+			border: 1px solid #999;
+			padding: 0.1em 1em;
+			
+			background-color: black;
+			
+			
+			</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>ABOUT</td>
+        <td>CHARACTER DATA</td>
+        <td>COMICS</td>
+        
+        <td><a href="https://ranfren.neocities.org/flipnote.html">GALLERY</a></td>
+        <td>LINKS</td> <td>STORE</td><br>
+        </tr>
+        </table>
+        **********************************************************************<br>
+        <img src="https://78.media.tumblr.com/60e5d1aa5b78070e9d05362439319091/tumblr_pck782oqNt1rlc5h1o1_640.gif">
+        <br>
+  
+  
+  
+}
