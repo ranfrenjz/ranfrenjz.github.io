@@ -18,7 +18,7 @@ function displayImages(folderName, pathName, numImages,extension=".png") {
         };
         img.src = `${folderPath}${pathName}${paddedIndex}${extension}`
         img.alt = `Image ${i}`;
-        img.width=800;
+        img.style.width="800px";
 
         imageContainer.appendChild(img);
 
