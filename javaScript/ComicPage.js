@@ -4,7 +4,7 @@ function displayImages(folderName, pathName, numImages,extension=".png") {
     const imageContainer = document.getElementById('imageContainer');
     //imageContainer.innerHTML = ''; // Clear previous content
 
-    for (let i = 1; i <= numImages; i++) {
+    for (let i = 0; i <= numImages; i++) {
         const paddedIndex = (i) < 10 ? '0' + (i) : (i);
         const img = document.createElement('img');
         img.onload = function () {
@@ -24,7 +24,7 @@ function displayImages(folderName, pathName, numImages,extension=".png") {
         imageContainer.appendChild(img);
 
         // Add line breaks except after the last image
-        if (i < numImages) {
+        if (i>0 && i < numImages && img.onload) {
             
         const lineBreak1 = document.createElement('br');
         const lineBreak2 = document.createElement('br');
