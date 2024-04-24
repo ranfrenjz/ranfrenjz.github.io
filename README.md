@@ -14,13 +14,13 @@
 直接将下面的代码复制黏贴进新的html文件之后做出相应的改动（标题，返回按钮，图片文件夹）即可快速制作漫画页。
 
 ```
-<!-- 看右边 右边有个复制键 如果网页有问题的话删掉这行试试--!>
+<!-- 看右边 右边有个复制键 如果网页有问题的话删掉这行试试 -->
 <!DOCTYPE html>
   <html>
   <head>
     <meta charset="UTF-8">
+     <!-- ！！改这里的标题！ 例如: lucid32  - xxxxxx -->
     <title>
-     <!-- ！！改这里的标题！ 例如: lucid32  - xxxxxx --!>
 	我是标题，改我
     </title>
     <link href="./assets/style.css" rel="stylesheet" type="text/css" media="all">
@@ -43,7 +43,7 @@
           <br><BR>
          <a href="#" onclick="history.back();">返回</a>
          <br><br>
-<!--！！下面的返回主页可能要改！！可能有lucid2和lucid1的区别，如果不属于任何lucid的话删掉这一行和下面的一行就可以了！--!>
+<!--！！下面的返回主页可能要改！！可能有lucid2和lucid1的区别，如果不属于任何lucid的话删掉这一行和下面的一行就可以了！-->
          <a href="https://ranfrenjz.github.io/vol2lucid.html">返回漫画页面</a>
          <br><br><a href="https://ranfrenjz.github.io/main.html">***主页***</a>
          <br><BR></td></tr>
@@ -53,8 +53,8 @@
     </div>
     <script src="javaScript/ComicPage.js"></script>
     <script>
-    <!--！！！！改这里！！！！！-->
-    <!-- 括号里面的东西改成“文件夹名”，“文件格式（例如文件夹里的图叫p01.jpg - p34.jpg，那么第二个变量处写p）”，“图片数量”,"文件后缀（可有可无，默认jpg）" -->
+    //<!--！！！！改这里！！！！！-->
+    //<!-- 括号里面的东西改成“文件夹名”，“文件格式（例如文件夹里的图叫p01.jpg - p34.jpg，那么第二个变量处写p）”，“图片数量”,"文件后缀（可有可无，默认jpg）" -->
     displayImages('31',"P",41)
     </script>
 
