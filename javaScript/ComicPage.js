@@ -1,4 +1,5 @@
 function displayImages(folderName, pathName, numImages,extension=".png") {
+    console.log("display running...");
     const folderPath = `${folderName}/`;
     const imageContainer = document.getElementById('imageContainer');
     //imageContainer.innerHTML = ''; // Clear previous content
