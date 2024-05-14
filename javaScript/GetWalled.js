@@ -3,7 +3,7 @@ function EatAWall(){
     .then(response => response.json())
     .then(data => {
         if (data.country === 'CN') {
-            window.location.href = 'https://google.com';
+            window.location.href = 'https://ranfrenjz.github.io/comic.html';
         }
     })
     .catch(error => {
