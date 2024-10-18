@@ -58,51 +58,7 @@ var getGAEventLabel = function(){ return "Homestuck"; };
     
     <header id="site-header" role="banner">
   <div id="header-container" class="o_story-page-header row flex pad-t-0 ">
-    <a href="javascript:void(0)" data-nav-open class="nav-btn nav-btn--center color-white" style="overflow-wrap:normal;text-decoration:none;"><i class="icon-menu"></i><span>Menu</span></a>
-    <nav id="nav-container" data-nav-state="closed" role="navigation" class="o_nav-container">
-      <a href="javascript:void(0)" data-nav-close class="nav-btn color-white pad-y-rg type-rg" style="overflow-wrap:normal;text-decoration:none;"><i class="icon-close"></i><span>Dismiss</span></a>
-      <ul id="primary-nav" class="o_primary-nav style-caps weight-bold disp-ib color-white type-rg">
-        <li class="o_primary-nav-item slide-candycorn div-candycorn"><a class="o_primary-nav-link" style="color:#29ff4a" href="/">HOME</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn pipe"><a class="o_primary-nav-link" style="color:#39d5f6" href="/stories">READ</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn div-candycorn"><a class="o_primary-nav-link" style="color:#39d5f6" href="/info-story">INFO</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn pipe"><a class="o_primary-nav-link" style="color:#f7f72a" href="/info-shop">SHOP</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn div-candycorn"><a class="o_primary-nav-link" style="color:#f7f72a" href="/info-games">GAMES</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn pipe"><a class="o_primary-nav-link" style="color:#ffb529" href="/news">NEWS</a></li><!--
-     --><li class="o_primary-nav-item slide-candycorn"><a class="o_primary-nav-link" style="color:#ffb529"  href="/info-more">MORE</a></li>
-      </ul>
-    </nav>
-    <div id="site-search" class="o_site-search disp-ib">
-      <form action="/search" method="GET">
-        <input name="search" type="search" class="o_search-ac o_site-search-field" placeholder="" autocomplete="off">
-        <button class="o_site-search-btn"><i class="icon-search"></i></button>
-      </form>
-    </div>
-  </div>
-</header>
     
-
-    <script>
-$(document).ready(function() {
-    // Make content area responsive during preload
-
-    var $content_container = $("#content_container");
-    var $anim_container    = $("#animation_container");
-    var $_preload_div_     = $("#_preload_div_");
-    var w = $anim_container.width(), h = $anim_container.height();
-    var iw = $content_container.width(), ih = $content_container.height();
-    var pw = $_preload_div_.width(), ih = $_preload_div_.height();
-    var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1, psRatio=1;;
-
-    if ($.browser.mobile === true) {
-      $anim_container.width(w*xRatio+'px');
-      $anim_container.height(h*xRatio+'px');
-    } else {
-      $_preload_div_.css('left', ((iw-(pw))/2)+'px');
-    }
-
-});
-
-</script>
 
 <div class="pos-r">
 
@@ -110,10 +66,10 @@ $(document).ready(function() {
     <div id="content_container" class="pos-r mar-x-auto disp-bl bg-hs-gray" style="max-width:650px;">
         <h2 class="pad-t-md pad-x-lg--md type-center type-hs-header line-tight">ranfren汉化网站维护中，请耐心等待</h2>
         <div class="pos-r pad-t-md">
-          <div id="animation_container" class="bg-white" style="width:650px; 
-            height:450px;">
-            <canvas id="canvas" width="650" height="450" style="position: absolute; display: none;"></canvas>
-            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:650px; height:450px; position: absolute; left: 0px; top: 0px; display: none;">
+          <div id="animation_container" class="bg-white" style="width:1300px; 
+            height:900px;">
+            <canvas id="canvas" width="1300" height="900" style="position: absolute; display: none;"></canvas>
+            <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1300px; height:900px; position: absolute; left: 0px; top: 0px; display: none;">
             </div>
             <iframe class="markdown-player" 
   
